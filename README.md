@@ -35,7 +35,7 @@ A number of studies have been conducted on volunteers, in which they have to ans
 
 While some questionaries have very obvious skewness in distribution of the dishonest answers (as the violin plots below of the labeled answer distribution on the PTST dataset show), some have a very hard to notice difference from performing EDA alone.
 
-The datasets can be found [here](csbd-data)
+The datasets can be found [here](https://github.com/uitaroh/Cognitive-Behavioural-and-Social-Data/tree/main/CSBD%20data)
 ## Methods
 ## Experiments
 ## Results
