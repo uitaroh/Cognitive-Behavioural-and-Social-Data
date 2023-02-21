@@ -35,7 +35,18 @@ A number of studies have been conducted on volunteers, in which they have to ans
 
 While some questionaries have very obvious skewness in distribution of the dishonest answers (as the violin plots below of the labeled answer distribution on the PTST dataset show), some have a very hard to notice difference from performing EDA alone.
 
+<p align="center">
+<img src="violin-csbd.PNG" alt="Alt text" title="Violin plots of honest vs dishonest answers in PTSD dataset">
+</p>
+
 The datasets can be found [here](https://github.com/uitaroh/Cognitive-Behavioural-and-Social-Data/tree/main/CSBD%20data)
-## Methods
 ## Experiments
+Due to the large number of unique datasets, model architectures, and selection methods that our implementation required, we decided to discard the classical Grid- Search algorithm for hyperparameter tuning. Instead, we opted for the more effective and versatile Optuna optimizaiton framework: it uses TPESampler as a base sampling algorithm, thus drastically reducing the time for finding the best hyperparameters.
+
+<p align="center">
+<img src="optuna.PNG" alt="Alt text" title="Violin plots of honest vs dishonest answers in PTSD dataset">
+</p>
+
+As shown in the images above (of the contour and parallel search plots of our hyperparameter search for decision tree on the PTSD dataset), this library makes it very easy to identify and visually look for the areas with the best imput for our models.
+## Methods
 ## Results
